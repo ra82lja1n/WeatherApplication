@@ -1,8 +1,8 @@
-import { apiKey } from "./api.js";
+// import { apiKey } from "./api.js";
 
 let searchBtn = document.querySelector("#search-btn");
 let resultBox = document.querySelector("#result");
-
+const apiKey = `479e296fea344f26b4b7dd72d99122fe`
 searchBtn.addEventListener("click", async () => {
     let cityName = document.querySelector("#city-name").value.trim();
     resultBox.innerHTML = "";
